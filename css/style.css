@@ -1,3 +1,5 @@
+/* COMMON */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -9,6 +11,31 @@ html, body {
     margin: 0 auto;
     max-width: 1024px;
 }
+
+.cta-button {
+    min-width: 150px;
+    background-color: #ccac0a;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem; 
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #a78c0a;
+}
+
+.cta-button--big {
+    min-width: 250px;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+/* END OF COMMON */
+
+/* NAV */
 
 .nav {
     background-color: #678E7D;
@@ -43,3 +70,27 @@ html, body {
 .nav__link--active {
     background-color: #7DA191;
 }
+
+/* END OF NAV */
+
+/* HERO */
+
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__info {
+    color: #fff;
+    text-align: center;
+}
+
+/* END OF HERO */
