@@ -2,9 +2,44 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    color: #2B3B34;
 }
 
 .container {
     margin: 0 auto;
     max-width: 1024px;
+}
+
+.nav {
+    background-color: #678E7D;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.nav__links {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__link {
+    color: #FFF;
+    text-decoration: none;
+    min-width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__link:hover {
+    background-color: #A4C3B2;
+}
+
+.nav__link--active {
+    background-color: #7DA191;
 }
