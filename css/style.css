@@ -121,3 +121,33 @@ a {
 }
 
 /* END OF FEATURES */
+
+/* TEAM */
+
+.team {
+    background-color: #CCE3DE;
+    padding: 3rem 0;
+}
+
+.team__container {
+    display: flex;
+}
+.team__header {
+    margin-top: 0;
+}
+
+.team__info, .team__photo {
+    flex-basis: 50%;
+    padding: 0 2rem;
+}
+
+.team__photo--container {
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/teamphoto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* END OF TEAM */
