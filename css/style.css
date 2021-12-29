@@ -25,6 +25,7 @@ a {
     font-size: 1.5rem;
     padding: 0.5rem;
     cursor: pointer;
+    border-radius: 4px;
     transition: background-color 0.5s ease-in-out;
 }
 
@@ -34,8 +35,8 @@ a {
 
 .cta-button--big {
     min-width: 250px;
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 1.70rem;
+    padding: 0.7rem;
 }
 
 /* END OF COMMON */
@@ -181,9 +182,9 @@ a {
 }
 
 .testimonial__avatar {
-   border-radius: 50%;
-   height: 60px;
-   width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
 }
 
 /* END OF TESTIMONIALS */
@@ -235,7 +236,7 @@ a {
     outline: none;
 }
 
-.contact-form__input::placeholder{
+.contact-form__input::placeholder {
     color: rgba(255, 255, 255, 0.8);
 }
 
@@ -260,7 +261,7 @@ a {
     transition: background-color 0.5s ease-in-out;
 }
 
-.contact-form__submit--fullwidth{
+.contact-form__submit--fullwidth {
     width: 100%
 }
 
@@ -273,7 +274,28 @@ a {
 /* FOOTER */
 
 .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    color: white;
     background-color: #678E7D;
 }
 
+.footer__header {
+    margin: 0;
+}
+
 /* END OF FOOTER */
+
+/* COPYRIGHT */
+
+.copyright {
+    padding: 1rem;
+    background-color: #5a7e6e;
+    color: white;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+/* END OF COPYRIGHT */
